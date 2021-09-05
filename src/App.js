@@ -1,14 +1,16 @@
 import React from "react";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import Header from "./components/Header";
+import SideBar from "./components/SideBar";
 
 function App() {
 	return (
 		<div className="app">
-			{/* Header */}
 			<Header />
-			{/* App body */}
+			<div className="app-body">
+				<SideBar/>
+			</div>
+
 			{/* Left SideBar */}
 			{/* Feed */}
 			{/* Right Sidebar - widjets */}
